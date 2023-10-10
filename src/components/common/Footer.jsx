@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
 
-      <div className='container-fluid '>
+      <div className='bg-black container-fluid '>
         <div className='bg-black container mx-auto px-16 py-16'>
           <div className='grid gap-6 sm:grid-cols-1 md:grid-cols-6 lg:grid-cols-12 2xl:grid-cols-12'>
             <div className='md:col-span-8'>
@@ -53,14 +53,14 @@ const Footer = () => {
               </div>
 
               <div className="py-10 relative">
-  <input
-    type="text"
-    placeholder="Enter your email"
-    className="bg-gray-700 text-white border border-gray-600 py-2 px-8 rounded pr-10 focus:outline-none focus:border-pink-500" />
-  <span className="absolute inset-y-0 right-0 flex items-center pr-3 sm:pr-10 text-purple-500">
-    <i className="fas fa-bell"></i>
-  </span>
-</div>
+                <input
+                  type="text"
+                  placeholder="Enter your email"
+                  className="bg-gray-700 text-white border border-gray-600 py-2 px-8 rounded pr-10 focus:outline-none focus:border-pink-500" />
+                <span className="absolute inset-y-0 right-0 flex items-center pr-3 sm:pr-10 text-purple-500">
+                  <i className="fas fa-bell"></i>
+                </span>
+              </div>
 
 
 
